@@ -99,7 +99,7 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3
       vue:
-        specifier: ^3.5.42
+        specifier: ^3.5.43
         version: 3.5.43(typescript@6.0.3)
       vue-router:
         specifier: ^5.3.1
