@@ -1,4 +1,4 @@
-FROM node:24.22.0 AS builder
+FROM node:24.22.2 AS builder
 WORKDIR /app
 
 COPY package*.json ./
@@ -9,7 +9,7 @@ RUN npm install -g pnpm && \
 COPY . .
 RUN pnpm run build
 
-FROM node:24.22.0
+FROM node:24.22.2
 WORKDIR /app
 
 COPY --from=builder /app/.output ./.output
