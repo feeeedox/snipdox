@@ -36,12 +36,12 @@
     "codemirror": "^6.0.2",
     "eslint": "^10.14.0",
     "next-auth": "~4.24.15",
-    "nuxt": "^4.6.2",
+    "nuxt": "^4.6.4",
     "nuxt-svgo": "5.3.2",
     "postgres": "^4.1.0",
     "tailwindcss": "^4.3.3",
-    "vue": "^3.5.44",
-    "vue-router": "^5.4.0"
+    "vue": "^3.5.45",
+    "vue-router": "^5.5.0"
   },
   "packageManager": "pnpm@12.18.0+sha512.9d7882d5dc82147ecfc4e062aa34834e0ad0296710a1837a1115ae012127d36b7109e321ac1598a1dd0a65597681b1e99917e12ed0d749eae91187943363beb3",
   "devDependencies": {
